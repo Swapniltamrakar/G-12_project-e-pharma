@@ -12,7 +12,7 @@ If I dont have any presciption then an option must be present to consult with on
 I also want to track my current order and facility of cancelling my current order.
 I can also pay my bill amount either online or through cash on delivery option.
 If needed I can connect with customer care easily to raise my querry.
-I can see all my previous orders and uploades prescriptions.
+I can see all my previous orders and uploaded prescriptions.
 I must receive detailed bill after order complition.
 
 Guest user:
