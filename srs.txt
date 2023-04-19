@@ -1,0 +1,112 @@
+TITLE:  System Requirement Specification for E-Pharma Web-App
+
+Team:
+	Direct Customer, Indirect Customer, Architect, Business Analyst
+	Quality Assurance Team,
+	System Analyst
+
+Purpose:
+The online E-Pharma System for Medicine Web Application is intended to  provide complete solution for vendors, Consumers(Patients) as well as internal users (Staff)  through  a single Gateway using  internet. It will enable vendors to setup up online Medical store, customers to browse through virtual Medical shops and purchase products online without visiting the Medical shop physically.
+    
+Scope:
+This System allows Patients/consumer to order there prescribed medicines from product catalogue based on their availability. Customer will be able to  review orders history and may able to cancel order or return, placed order. The System  will be able to show live Business Operation statistics trends through Customized dashboard for stakeholders.
+the system will also generate a monthly report on performance of product and services provided by pharmacy.
+
+
+Definitions:
+	OSS: Online Shopping System
+	QA:  Quality Assurance
+	Portal: Personalized Online Web Application
+	MIS: Management Information System
+	CRM: Customer Relation Management
+	BI:  Business Intelligence
+	Dashboard: Personalized information presented using  BI techniques such grid, score card,    	graph
+	    
+ 
+Functional Requirements:
+User:
+1.Any unregistered User will be able to view different health and wellness products available, but will not be able to add items to cart.
+2.User can register him/her self by entering required credentials.
+3.Logged in user can order medicine by uploading Prescription
+4.Customers can view his/her order history and can repeat orders.
+5.User can pay bill amount though secure online medium(UPI, net banking) or can opt for COD.
+6.User will get detailed invoice after verification.
+7.If somehow order failed user will be informed if payment was successful then money will be refunded to account from  which payment was done.  
+8.User can raise a query and can directly connect with customer support staff.
+
+Vendors:
+1.Interested Vendors can register  by entering required credentials.
+2.Online verification of submitted documents.
+3.Registered pharmaceutical company will be able promote their product for sale by adding  
+products to the product catalogue maintained by System. Staff will be able to approve or reject           request for adding or removing products from product catalogue by Registered pharmaceutical company.
+4. Pharmaceutical company will be able request to add new product to product catalogue     	                      maintained by system.  Sales Team will be able to approve or reject request  raised by       Pharmaceutical company for adding or removing products from product catalogue.
+5. Monthly update of sold product will be sent to vendor.
+
+Internal Staff:
+1.Staff will able be to track and maintain stock of products available for sale. Staff will be able to raise requests for product updation from product inventory.
+2.Pharmaceutical company, sales team will be informed well in advanced about low stock  or out of stock of products in product catalogue.
+3. Sales team will be able get details of orders of a particular Customer. Sales team  will be able to cancel , reject or approve  orders been placed by consumer due to some policies of Business.
+BOD will be able to summary of orders been placed , rejected from Order Processing of System. BOD will get Business insight by observing  daily operations  with the of getting orders information.
+
+
+
+Non-functional Requirement:
+
+Security
+Registered Customer will be allowed to place an order.	
+Each stakeholder will be to access system  through authentication process.
+System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
+Using SSL in all transactions  which will be performed stakeholder.
+It would protect confidential information shared by system to stake holder of Shared by stakeholder to system.
+System will automatically log of  all stakeholder after some time due to inactivity.
+System will block operations for inactive  stakeholder and would redirect for authentication.
+System  will internally maintain secure communication channel between Servers ( Web Servers, App Servers, database Server)
+Sensitive data will be always encrypted across communication.
+User proper firewall to protect servers from out side fishing, venerable attacks.
+
+Reliability
+
+The system will backup business data on regular basis and recover in short time duration to keep system operational Continuos updates are maintained, continuos Administration is done to keep system operational.
+During peak hours system will maintain same user experaince by managing load balacning .
+Availability
+	uptime:   24* 7  available
+		 99.999%
+
+Maintainability:
+A Commercial database software will be used to maintain System data Persistence.
+A ready-made Web Server will be installed to host online shopping portal (Web Site) to management server capabilities.
+IT operations team will easily monitor and configure System using Administrative tools provided by Servers. Separate environment will be maintained for system for isolation in  production, testing, and development.
+
+Portability:
+PDA: Portable Device Application
+System will provide portable User Interface ( HTML, CSS, JS) through  users will be able to access online shopping portal. System can be deployed to single server, multi server, to any OS, Cloud (Azure or AWS or GCP)
+
+Accessibility:
+only registered customer will be able to place an order after authentication.
+Sales team can reject or approve  orders, shopper requests  based on role  provided.
+BOD team will be able to view daily, weekly, monthly, annual businss Growth throgh customized dashboard.
+Shoppers will be able to see their product sale graph
+
+
+
+Durability:
+System will retain customer  shopping cart for 15 minutes  even though customer loose internet connection and join again.
+System will maintain wish-list for customer . customer  will be able to add products from wish-list  and add to shopping cart whenever needed.
+System will implement backup and recovery for retaining stake holders data, business operation data and business data over time.
+
+Efficiency:
+on Festival season, maximum number of users  will place order, view products  with same response time. System will be able to manage all transactions with isolation.
+
+Modularity:
+System will designed and developed using reusable, independent or dependent business scenarios in the form of modules. These modules will be loosely coupled and highly cohesive.
+System will contain CRM , Inventory , shopping cart, order processing, payment processing, Delivery module, membership and Roles management modules.
+	
+Scalability:
+System will be able  to  provide  consistent user experience to stake holder as well as visitors irrespective of load.
+
+Safety:
+Online shopping portal will be secure from malicious attack, fishing.
+Online shopping portal functionalists are protected from outside with proper firewall configuration.
+Online shopping portal will be always kept updated with latest anti virus software.
+Business data will be backed up periodically to ensure safety of data using incremental back up strategy. Role based security will be applied for Application data and operations accessibility.
+
