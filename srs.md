@@ -52,7 +52,7 @@ BOD will be able to summary of orders been placed , rejected from Order Processi
 
 Non-functional Requirement:
 
-Security
+Security:
 Registered Customer will be allowed to place an order.	
 Each stakeholder will be to access system  through authentication process.
 System will provide access to  the content , operations using Role based security (Authorization) (Permissions based on Role)
@@ -64,7 +64,7 @@ System  will internally maintain secure communication channel between Servers ( 
 Sensitive data will be always encrypted across communication.
 User proper firewall to protect servers from out side fishing, venerable attacks.
 
-Reliability
+Reliability:
 
 The system will backup business data on regular basis and recover in short time duration to keep system operational Continuos updates are maintained, continuos Administration is done to keep system operational.
 During peak hours system will maintain same user experaince by managing load balacning .
