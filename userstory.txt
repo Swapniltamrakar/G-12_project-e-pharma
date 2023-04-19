@@ -1,7 +1,7 @@
 Customer STORY E-PHARMA APP
 Logged in user:
 
-As a Customer I want to login using my credentials, so that I dont have to reenter details during ordering.
+As a Customer I want to login using my credentials, so that I dont have to re-enter details during ordering.
 I want options to edit my dashboard and profile.
 I can choose my regional language for app dashboard.
 I want to be able to search and order all medicine from catalogue.
