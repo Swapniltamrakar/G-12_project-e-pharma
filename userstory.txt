@@ -19,7 +19,7 @@ Guest user:
 
 As a guest user I want to be able to search all the available medicines from catalogue.
 I must be able to register myself using my credentials.
-
+I can raise querry if I am unable to register.
 
 ACCEPTANCE CRITERIA
 
