@@ -1,13 +1,24 @@
 USER STORY E-PHARMA APP
 Logged in user:
 
-As a User I want to search and order all medicine from catalogue .
+As a User I want to login using my credentials, so that I dont have to reenter details during ordering.
+I want options to edit my dashboard and profile.
+I can choose my regional language for app dashboard.
+I want to be able to search and order all medicine from catalogue.
+I want to be able to maintain my cart by using simple buttons.
+I want a filter button to filter related medicines from catalogue. 
 I can add prescription provided by my family doctor so that I can get all medicines faster and without any hassle.
 If I dont have any presciption then an option must be present to consult with online available expert from staff of e-pharma app.
 I also want to track my current order and facility of cancelling my current order.
 I can also pay my bill amount either online or through cash on delivery option.
+If needed I can connect with customer care easily to raise my querry.
+I can see all my previous orders and uploades prescriptions.
+I must receive detailed bill after order complition.
 
 Guest user:
+
+As a guest user I want to be able to search all the available medicines from catalogue.
+I must be able to register myself using my credentials.
 
 
 ACCEPTANCE CRITERIA
