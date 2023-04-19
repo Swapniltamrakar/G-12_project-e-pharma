@@ -1,8 +1,14 @@
 USER STORY E-PHARMA APP
+Logged in user:
 
-As a User I want to search and order all medicine from catalogue using prescription provided by my family doctor so that I can get all medicines faster and without any hassle.
-I can also pay my bill amount either online or through cash on delivery option.
+As a User I want to search and order all medicine from catalogue .
+I can add prescription provided by my family doctor so that I can get all medicines faster and without any hassle.
+If I dont have any presciption then an option must be present to consult with online available expert from staff of e-pharma app.
 I also want to track my current order and facility of cancelling my current order.
+I can also pay my bill amount either online or through cash on delivery option.
+
+Guest user:
+
 
 ACCEPTANCE CRITERIA
 
