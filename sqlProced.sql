@@ -1,10 +1,10 @@
 delimiter $$
-create procedure emp_det(in pdeptno int)
+create procedure cust_det(in pprodid int)
 begin
 declare max,min,avg,count double(9,2);
-select Max(sal),Min(sal),avg(sal),count(*) into max,min,avg,count
+select Max(amt),Min(amt),avg(amt),count(*) into max,min,avg,count
 from emp
-where deptno=pdeptno;
+where prodid=pprodid;
 select max,min,avg,count;
 end $$
 delimiter ;
